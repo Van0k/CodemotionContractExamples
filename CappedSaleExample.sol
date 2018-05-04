@@ -64,6 +64,10 @@ contract CappedSale is Pausable {
         token = IMintableToken(tokenAddress);
     }
     
+    function() public payable {
+        buyTokens(msg.sender);
+    }
+    
     function buyTokens(address buyer) public payable whenNotPaused {
         require(buyer != 0x0);
         require(msg.value != 0);

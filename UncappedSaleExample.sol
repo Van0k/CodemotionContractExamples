@@ -72,6 +72,10 @@ contract CappedSale is Pausable {
         token = IMintableToken(tokenAddress);
     }
     
+    function() public payable {
+        buyTokens(msg.sender);
+    }
+    
     function buyTokens(address buyer) 
         public 
         payable 
@@ -103,4 +107,3 @@ contract CappedSale is Pausable {
         withdrawAddress.transfer(amount);
     }
 }
-
