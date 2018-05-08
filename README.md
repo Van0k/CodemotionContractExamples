@@ -35,6 +35,10 @@ DAICO:
 * Vitalik's original post: <https://ethresear.ch/t/explanation-of-daicos/465>
 * Implementation by The Abyss: <https://github.com/theabyssportal/DAICO-Smart-Contract>
 
+Voting references of DAICO:
+* Naive and stake-based voting: <https://www.ethereum.org/dao>
+* Quadratic voting: <https://marginalrevolution.com/marginalrevolution/2015/01/my-thoughts-on-quadratic-voting-and-politics-as-education.html>
+
 Some additional theory on tokensale models:
 * Here is an excellent blogpost from Vitalik which largely inspired the talk: <https://vitalik.ca/general/2017/06/09/sales.html>
 * The first blogpost in the series from Nick White: <https://medium.com/@nickikwhite_5051/token-sale-models-part-1-649f8eec29fc>
