@@ -85,6 +85,7 @@ contract DutchAuction is Ownable {
         uint bidderTokens = (bidderFraction*soldSupply)/10**18;
         
         token.mint(msg.sender, bidderTokens);
+        bids[msg.sender] = 0;
     }
     
     function withdrawFunds(address withdrawAddress, uint amount)
